@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU",
-"sources": ["../frontend/style/base/_reset.scss"],
-"names": [],
-"file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../frontend/style/abstract/_variables.scss","../frontend/style/base/_reset.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACRF;EACE;EACA;EACA;;;AAGF;EACE","file":"style.css"}

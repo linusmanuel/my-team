@@ -4,7 +4,7 @@
   "description": "My team is a challenge from frontend mentor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass -w src/frontend/style/main.scss:src/styles/style.css"
   },
   "repository": {
     "type": "git",

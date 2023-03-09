@@ -1,6 +1,22 @@
+:root {
+  --primary: #014E56;
+  --primary-light: #F67E7E;
+  --secondary: #2C6269;
+  --secondary-light: #79C8C7;
+  --secondary-dark: #004047;
+  --tertiary: #012F34;
+  --tertiary-dark: #002529;
+  --white: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+}
 
 /*# sourceMappingURL=style.css.map */
