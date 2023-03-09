@@ -1,0 +1,24 @@
+{
+  "name": "my-team",
+  "version": "1.0.0",
+  "description": "My team is a challenge from frontend mentor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmanuel/my-team.git"
+  },
+  "author": "Joao Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusmanuel/my-team/issues"
+  },
+  "homepage": "https://github.com/linusmanuel/my-team#readme",
+  "type": "module",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.58.3"
+  }
+}
