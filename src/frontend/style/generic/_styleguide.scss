@@ -1,6 +1,8 @@
 .b-styleguide {
   .container {
     max-width: $xl;
+    width: 100%;
+    margin-inline: auto;
   }
 
   &__header {
