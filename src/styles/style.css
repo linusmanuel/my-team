@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700;900&display=swap");
 :root {
   --primary: #014E56;
   --primary-light: #F67E7E;
@@ -9,6 +10,7 @@
   --white: #fff;
 }
 
+/* Container width */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +18,31 @@
 }
 
 body {
-  background-color: var(--primary);
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+.b-styleguide .container {
+  max-width: 1200px;
+}
+.b-styleguide__header {
+  background: var(--primary) url("/src/images/bg-styleguide.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-inline: 9.6em;
+  padding-block: 5.4em;
+}
+.b-styleguide__image {
+  margin: 0.4em 0 0 0.2em;
+}
+.b-styleguide__title {
+  font-size: 5em;
+  color: var(--white);
+  letter-spacing: -0.45px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

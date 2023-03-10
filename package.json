@@ -18,6 +18,7 @@
   "homepage": "https://github.com/linusmanuel/my-team#readme",
   "type": "module",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "live-server": "^1.2.2",
     "sass": "^1.58.3"
   }

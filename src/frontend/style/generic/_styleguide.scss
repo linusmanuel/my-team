@@ -1,0 +1,25 @@
+.b-styleguide {
+  .container {
+    max-width: $xl;
+  }
+
+  &__header {
+    background: var(--primary) url('/src/images/bg-styleguide.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-inline: 9.6em;
+    padding-block: 5.4em;
+  }
+
+  &__image {
+    margin: 0.4em 0 0 0.2em;
+  }
+
+  &__title {
+    font-size: 5em;
+    color: var(--white);
+    letter-spacing: -0.45px;
+    font-weight: 700;
+
+  }
+}
