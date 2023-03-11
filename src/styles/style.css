@@ -5,9 +5,10 @@
   --secondary: #2C6269;
   --secondary-light: #79C8C7;
   --secondary-dark: #004047;
-  --tertiary: #012F34;
-  --tertiary-dark: #002529;
+  --secondary-dark-2: #012F34;
+  --secondary-dark-3: #002529;
   --white: #fff;
+  --gray: #E1E1E1;
 }
 
 /* Container width */
@@ -21,10 +22,15 @@ body {
   font-size: 62.5%;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Livvic", sans-serif;
 }
 
+/* Fonts Weights */
 .b-styleguide .container {
   max-width: 1200px;
   width: 100%;
@@ -55,17 +61,65 @@ body {
   color: var(--primary);
   font-size: 4em;
   line-height: 42px;
-  margin-bottom: 4.2em;
+  margin-bottom: 2.625rem;
 }
 .b-colors__list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 4.25rem;
+  margin-bottom: 2.625rem;
+}
+.b-colors__list--primary .b-colors__item:nth-child(3) .b-colors__color {
+  background-color: var(--primary-light);
+}
+.b-colors__list--primary .b-colors__item:nth-child(4) .b-colors__color {
+  background-color: var(--white);
+  border: solid 1px var(--gray);
+}
+.b-colors__list--secondary .b-colors__item:nth-child(2) .b-colors__color {
+  background-color: var(--secondary-light);
+}
+.b-colors__list--secondary .b-colors__item:nth-child(3) .b-colors__color {
+  background-color: var(--secondary);
+}
+.b-colors__list--secondary .b-colors__item:nth-child(4) .b-colors__color {
+  background-color: var(--secondary-dark);
+}
+.b-colors__item {
+  max-width: 9.0625rem;
+}
+.b-colors__item:first-child {
+  color: var(--secondary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.3125rem;
+  margin-right: auto;
 }
 .b-colors__color {
-  height: 5.6em;
-  width: 5.6em;
+  height: 3.5rem;
+  width: 3.5rem;
   background-color: var(--primary);
   border-radius: 50%;
   margin-bottom: 1.5em;
+}
+.b-colors__name {
+  display: block;
+  color: var(--secondary-dark-3);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+.b-colors__text {
+  font-size: 0.8125rem;
+  color: var(--secondary-dark-3);
+  font-weight: 400;
+}
+.b-colors hr {
+  border: none;
+  height: 1px;
+  background-color: var(--gray);
 }
 
 /*# sourceMappingURL=style.css.map */
