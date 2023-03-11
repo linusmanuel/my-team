@@ -47,4 +47,25 @@ body {
   font-weight: 700;
 }
 
+.b-colors {
+  padding-inline: 9.6em;
+  padding-top: 62px;
+}
+.b-colors__title {
+  color: var(--primary);
+  font-size: 4em;
+  line-height: 42px;
+  margin-bottom: 4.2em;
+}
+.b-colors__list {
+  display: flex;
+}
+.b-colors__color {
+  height: 5.6em;
+  width: 5.6em;
+  background-color: var(--primary);
+  border-radius: 50%;
+  margin-bottom: 1.5em;
+}
+
 /*# sourceMappingURL=style.css.map */

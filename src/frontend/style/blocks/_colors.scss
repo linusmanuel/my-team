@@ -1,0 +1,26 @@
+.b-colors {
+  padding-inline: 9.6em;
+  padding-top: 62px;
+
+  &__title {
+    color: var(--primary);
+    font-size: 4em;
+    line-height: 42px;
+    margin-bottom: 4.2em;
+  }
+  &__list {
+    display: flex;
+  }
+
+  &__item {}
+
+  &__color {
+    @include squares(5.6em);
+    background-color: var(--primary);
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+  } 
+  &__name {}
+  &__text {}
+  
+}
