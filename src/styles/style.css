@@ -31,28 +31,6 @@ body {
 }
 
 /* Fonts Weights */
-.b-styleguide .container {
-  max-width: 1200px;
-  width: 100%;
-  margin-inline: auto;
-}
-.b-styleguide__header {
-  background: var(--primary) url("/src/images/bg-styleguide.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-inline: 9.6em;
-  padding-block: 5.4em;
-}
-.b-styleguide__image {
-  margin: 0.4em 0 0 0.2em;
-}
-.b-styleguide__title {
-  font-size: 5em;
-  color: var(--white);
-  letter-spacing: -0.45px;
-  font-weight: 700;
-}
-
 .b-colors {
   padding-inline: 9.6em;
   padding-top: 62px;
@@ -120,6 +98,28 @@ body {
   border: none;
   height: 1px;
   background-color: var(--gray);
+}
+
+.b-styleguide .container {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+}
+.b-styleguide__header {
+  background: var(--primary) url("/src/images/bg-styleguide.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-inline: 9.6em;
+  padding-block: 5.4em;
+}
+.b-styleguide__image {
+  margin: 0.4em 0 0 0.2em;
+}
+.b-styleguide__title {
+  font-size: 5em;
+  color: var(--white);
+  letter-spacing: -0.45px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
