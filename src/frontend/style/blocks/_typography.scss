@@ -1,0 +1,103 @@
+.b-typography {
+  padding-block: rem(56px);
+  padding-inline: rem(96px);
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: var(--gray);
+  }
+
+  &__title {
+    font-size: rem(40px);
+    font-weight: rem(42px);
+    font-weight: bold;
+    margin-bottom: rem(48px);
+    color: var(--secondary-dark-2);
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: rem(40px);
+
+    span:first-of-type {
+      @include squares(rem(100px));
+      display: inline-block;
+      background-color: var(--secondary-dark-3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      font-size: rem(40px);
+      color: var(--white);
+      font-weight: bold;
+      line-height: rem(42px);
+    }
+
+    span:last-of-type {
+      width: rem(166px);
+      height: rem(100px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--gray);
+      font-size: rem(13px);
+      line-height: rem(18px);
+      color: var(--gray-100);
+      font-weight: bold;
+    }
+  }
+
+  &__subtitle {
+    font-weight: bold;
+    font-size: rem(13px);
+    line-height: rem(18px);
+    letter-spacing: rem(5px);
+    color: var(--secondary);
+    text-transform: uppercase;
+    margin-bottom: rem(32px);
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: rem(40px);
+  }
+
+  &__headings {
+    max-width: rem(396px);
+    width: 100%;
+    p:nth-child(2n) {
+      font-size: rem(13px);
+      color: var(--secondary-dark-3);
+      margin-bottom: rem(16px);
+    }
+    
+    p:nth-child(2n+1) {
+      color: var(--secondary-dark-3);
+      font-weight: bold;
+      margin-bottom: rem(32px);
+    }
+
+    p:nth-child(3) {
+      font-size: rem(100px);
+      line-height: 1;
+    }
+
+    p:nth-child(5) {
+      font-size: rem(64px);
+      line-height: 1;
+    }
+
+    p:nth-child(7) {
+      font-size: rem(48px);
+      line-height: 1;
+    }
+
+    p:nth-child(9) {
+      font-size: rem(18px);
+      line-height: 28px;
+    }
+  }
+
+}

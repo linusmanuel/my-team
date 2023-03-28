@@ -9,6 +9,7 @@
   --secondary-dark-3: #002529;
   --white: #fff;
   --gray: #E1E1E1;
+  --gray-100: #33323D;
 }
 
 /* Container width */
@@ -98,6 +99,97 @@ body {
   border: none;
   height: 1px;
   background-color: var(--gray);
+}
+
+.b-typography {
+  padding-block: 3.5rem;
+  padding-inline: 6rem;
+}
+.b-typography hr {
+  border: none;
+  height: 1px;
+  background-color: var(--gray);
+}
+.b-typography__title {
+  font-size: 2.5rem;
+  font-weight: 2.625rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: var(--secondary-dark-2);
+}
+.b-typography__header {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+.b-typography__header span:first-of-type {
+  height: 6.25rem;
+  width: 6.25rem;
+  display: inline-block;
+  background-color: var(--secondary-dark-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: bold;
+  line-height: 2.625rem;
+}
+.b-typography__header span:last-of-type {
+  width: 10.375rem;
+  height: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray);
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color: var(--gray-100);
+  font-weight: bold;
+}
+.b-typography__subtitle {
+  font-weight: bold;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.3125rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.b-typography__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2.5rem;
+}
+.b-typography__headings {
+  max-width: 24.75rem;
+  width: 100%;
+}
+.b-typography__headings p:nth-child(2n) {
+  font-size: 0.8125rem;
+  color: var(--secondary-dark-3);
+  margin-bottom: 1rem;
+}
+.b-typography__headings p:nth-child(2n+1) {
+  color: var(--secondary-dark-3);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.b-typography__headings p:nth-child(3) {
+  font-size: 6.25rem;
+  line-height: 1;
+}
+.b-typography__headings p:nth-child(5) {
+  font-size: 4rem;
+  line-height: 1;
+}
+.b-typography__headings p:nth-child(7) {
+  font-size: 3rem;
+  line-height: 1;
+}
+.b-typography__headings p:nth-child(9) {
+  font-size: 1.125rem;
+  line-height: 28px;
 }
 
 .b-styleguide .container {
