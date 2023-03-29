@@ -100,4 +100,27 @@
     }
   }
 
+  &__body {
+    p:nth-child(2n) {
+      font-size: rem(13px);
+      color: var(--secondary-dark-3);
+      margin-bottom: rem(16px);
+    }
+
+    p {
+      font-weight: 600;
+    }
+
+    p:nth-child(3) {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: rem(43px);
+    }
+
+    p:nth-child(5) {
+      font-size: rem(15px);
+      line-height: rem(25px);
+    }
+  }
+
 }
