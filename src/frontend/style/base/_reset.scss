@@ -11,3 +11,9 @@ body {
 ul {
   list-style: none;
 }
+
+hr {
+  border: none;
+  height: rem(1px);
+  background-color: var(--gray);
+}

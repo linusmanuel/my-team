@@ -28,6 +28,12 @@ ul {
   list-style: none;
 }
 
+hr {
+  border: none;
+  height: 0.0625rem;
+  background-color: var(--gray);
+}
+
 body {
   font-family: "Livvic", sans-serif;
 }
@@ -96,20 +102,10 @@ body {
   color: var(--secondary-dark-3);
   font-weight: 400;
 }
-.b-colors hr {
-  border: none;
-  height: 1px;
-  background-color: var(--gray);
-}
 
 .b-typography {
   padding-block: 3.5rem;
   padding-inline: 6rem;
-}
-.b-typography hr {
-  border: none;
-  height: 1px;
-  background-color: var(--gray);
 }
 .b-typography__title {
   font-size: 2.5rem;
