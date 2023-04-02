@@ -1,0 +1,50 @@
+.c-btn {
+  background-color: transparent;
+  width: rem(153px);
+  height: rem(48px);
+  border-radius: rem(100px);
+  border: solid 2px var(--secondary-dark-2);
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: rem(18px);
+  line-height: rem(28px);
+  color: var(--secondary-dark-2);
+  text-decoration: none;
+  font-weight: $semi-bold;
+
+  &-primary-o {
+    color: var(--white);
+    border-color: var(--white);
+    transition: all 2s;
+
+    &:hover {
+      background-color: var(--white);
+      color: var(--secondary-dark-3);
+    }
+  }
+
+  &-primary-o--dark {
+    color: var(--secondary-dark-3);
+    transition: all 2s;
+
+    &:hover {
+      background-color: var(--secondary-dark-2);
+      color: var(--white);
+    }
+  }
+
+  &-secondary {
+    background-color: var(--white);
+    color: var(--secondary-dark-3);
+    border-color: var(--white);
+    transition: all 2s;
+
+    &:hover {
+      background-color: var(--secondary-light);
+      color: var(--secondary-dark-3);
+      border-color: var(--secondary-light);
+    }
+  }
+}
