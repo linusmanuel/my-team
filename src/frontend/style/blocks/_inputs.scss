@@ -1,0 +1,57 @@
+.b-inputs {
+  padding-inline: rem(96px);
+  margin-bottom: rem(118px);
+  &__title {
+    font-size: rem(40px);
+    font-weight: rem(42px);
+    font-weight: bold;
+    margin-bottom: rem(48px);
+    color: var(--gray-100);
+  }
+
+  &__subtitle {
+    font-weight: bold;
+    font-size: rem(13px);
+    line-height: rem(18px);
+    letter-spacing: rem(5px);
+    color: var(--secondary);
+    text-transform: uppercase;
+    margin-bottom: rem(32px);
+  }
+
+  &__container {
+    display: flex;
+    gap: rem(44px);
+  }
+
+  &__text-area,
+  &__text-field {
+  }
+
+  &__text-area &__list:first-of-type,
+  &__text-field &__list:first-of-type
+   {
+    @include flex-column-gap(rem(119.5px));
+    display: flex;
+    flex-direction: column;
+    gap: rem(46px);
+    font-size: rem(13px);
+    font-weight: $regular;
+    line-height: rem(18px);
+    color: var(--secondary-dark-3);
+    padding-block: rem(38px);
+    margin-right: rem(87px );
+
+  }
+
+   &__text-area &__list:last-of-type,
+    &__text-field &__list:last-of-type
+   {
+    @include flex-column-gap(rem(15px));
+    background-color: var(--secondary-dark-2);
+    border-radius: rem(10px);
+    padding: rem(24px);
+    margin-right: rem(40px);
+    width: rem(296px);
+  }
+}

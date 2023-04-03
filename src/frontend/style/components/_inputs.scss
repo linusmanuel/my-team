@@ -1,0 +1,30 @@
+.c-input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px var(--white);
+  height: rem(43px);
+  padding-inline: rem(14px);
+  width: 100%;
+  color: var(--white);
+  font-size: rem(15px);
+  line-height: rem(25px);
+  font-weight: $semi-bold;
+
+  &--field {
+    padding-bottom: rem(17px);
+  }
+  &::placeholder {
+    opacity: 0.6;
+  }
+
+  &:active, 
+  &:focus {
+    border-color: var(--secondary-light);
+    opacity: 1;
+    color: var(--white);
+    font-size: rem(15px);
+    line-height: rem(25px);
+    font-weight: $semi-bold;
+  }
+}
