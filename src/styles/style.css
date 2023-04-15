@@ -631,4 +631,20 @@ body {
   margin-bottom: 1rem;
 }
 
+.c-cta {
+  text-align: center;
+  background-color: var(--primary-light);
+  padding-block: 5.1875rem;
+  background-image: url("/src/images/bg-pattern-home-6-about-5.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom -22px;
+}
+.c-cta__title {
+  color: var(--secondary-dark-2);
+  margin-bottom: 1.5rem;
+}
+.c-cta__button {
+  margin-inline: auto;
+}
+
 /*# sourceMappingURL=style.css.map */

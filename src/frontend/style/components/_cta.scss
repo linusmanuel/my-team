@@ -1,0 +1,17 @@
+.c-cta {
+  text-align: center;
+  background-color: var(--primary-light);
+  padding-block: rem(83px);
+  background-image: url('/src/images/bg-pattern-home-6-about-5.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom -22px;
+
+  &__title {
+    color: var(--secondary-dark-2);
+    margin-bottom: rem(24px);
+  }
+
+  &__button {
+    margin-inline: auto;
+  }
+}
