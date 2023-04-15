@@ -1,0 +1,36 @@
+.b-stories {
+  background-color: var(--secondary-dark);
+  text-align: center;
+  padding: rem(140px) 0 rem(164px) 0;
+  background-image: url('/src/images/bg-pattern-home-5.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+
+  &::before {
+    @include bg-retangle-detail;
+    left: rem(47px);
+    top: rem(56px);
+    z-index: 2;
+  }
+
+  &::after {
+    @include squares(rem(100px));
+    display: block;
+    content: "";
+    background-color: var(--secondary-dark-3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+
+  &__title {
+    margin-bottom: rem(48px);
+  }
+
+  &__cards {
+    @include flex-column-gap(rem(48px));
+  }
+}

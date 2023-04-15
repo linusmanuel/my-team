@@ -1,5 +1,7 @@
+/* TEAM CARD */
 .c-team__card {
   text-align: center;
+  
   &-image {
     display: block;
     @include squares(rem(72px));
@@ -15,6 +17,27 @@
   &-title {
     color: var(--primary-light);
   }
+}
 
+/* STORIES CARD*/
+.c-stories__card {
+  padding-top: rem(38px);
+  position: relative;
+  background-image: url('/src/images/icon-quotes.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
 
+  &-title {
+    color: var(--secondary-light);
+    margin-bottom: 0;
+  }
+
+  &-image {
+    @include c-picture;
+    @include squares(rem(62px))
+  }
+
+  &-text {
+    margin-bottom: rem(16px);
+  }
 }

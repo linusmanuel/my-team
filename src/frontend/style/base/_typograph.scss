@@ -30,6 +30,10 @@ $black: 900;
   font-weight: $bold;
   font-size: rem(32px);
   line-height: rem(32px);
+
+  span {
+    color: var(--secondary-light);
+  }
 }
 
 .c-title-4 {
@@ -47,4 +51,10 @@ $black: 900;
   color: var(--white);
   font-weight: $semi-bold;
   line-height: rem(28px);
+}
+
+.c-text-1 {
+  @extend .c-text;
+  font-weight: $medium;
+  font-style: italic;
 }

@@ -23,8 +23,6 @@
   }
 
   &__cards {
-    display: flex;
-    flex-direction: column;
-    gap: rem(48px);
+    @include flex-column-gap(rem(48px));
   }
 } 

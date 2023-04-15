@@ -10,6 +10,7 @@
   --white: #fff;
   --gray: #E1E1E1;
   --gray-100: #33323D;
+  --border-color: #C4FFFE;
 }
 
 /* Container width */
@@ -62,6 +63,9 @@ body {
   font-size: 2rem;
   line-height: 2rem;
 }
+.c-title-3 span {
+  color: var(--secondary-light);
+}
 
 .c-title-4 {
   font-weight: 700;
@@ -72,11 +76,16 @@ body {
 }
 
 /* Paragraph */
-.c-text {
+.c-text, .c-text-1 {
   font-size: 0.9375rem;
   color: var(--white);
   font-weight: 600;
   line-height: 1.75rem;
+}
+
+.c-text-1 {
+  font-weight: 500;
+  font-style: italic;
 }
 
 .b-colors {
@@ -408,6 +417,46 @@ body {
   gap: 3rem;
 }
 
+.b-stories {
+  background-color: var(--secondary-dark);
+  text-align: center;
+  padding: 8.75rem 0 10.25rem 0;
+  background-image: url("/src/images/bg-pattern-home-5.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+.b-stories::before {
+  content: "";
+  background-image: url("/src/images/bg-retangle-detail.svg");
+  display: block;
+  position: absolute;
+  width: 6.25rem;
+  height: 2.75rem;
+  left: 2.9375rem;
+  top: 3.5rem;
+  z-index: 2;
+}
+.b-stories::after {
+  height: 6.25rem;
+  width: 6.25rem;
+  display: block;
+  content: "";
+  background-color: var(--secondary-dark-3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.b-stories__title {
+  margin-bottom: 3rem;
+}
+.b-stories__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .b-styleguide .container {
   max-width: 1200px;
   width: 100%;
@@ -533,6 +582,7 @@ body {
   position: absolute;
 }
 
+/* TEAM CARD */
 .c-team__card {
   text-align: center;
 }
@@ -550,6 +600,35 @@ body {
 }
 .c-team__card-title {
   color: var(--primary-light);
+}
+
+/* STORIES CARD*/
+.c-stories__card {
+  padding-top: 2.375rem;
+  position: relative;
+  background-image: url("/src/images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.c-stories__card-title {
+  color: var(--secondary-light);
+  margin-bottom: 0;
+}
+.c-stories__card-image {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 2px var(--border-color);
+  height: 3.875rem;
+  width: 3.875rem;
+}
+.c-stories__card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.c-stories__card-text {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

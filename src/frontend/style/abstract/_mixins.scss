@@ -23,3 +23,16 @@
   width: rem(100px);
   height: rem(44px);
 }
+
+@mixin c-picture {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 2px var(--border-color);
+
+  img {
+    @include squares(100%);
+    object-fit: cover;
+
+  }
+}
