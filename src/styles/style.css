@@ -223,6 +223,13 @@ body {
   color: var(--primary-light);
 }
 
+.c-title-3 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
 /* Paragraph */
 .c-text {
   font-size: 0.9375rem;
@@ -357,12 +364,35 @@ body {
   display: block;
   position: absolute;
   width: 6.25rem;
-  height: 44px;
-  bottom: 56px;
+  height: 2.75rem;
   left: 0.5625rem;
+  bottom: 3.5rem;
 }
 .b-hero__body {
   padding-block: 5rem;
+}
+
+.b-team {
+  background-color: var(--secondary-dark-2);
+  padding-block: 4rem;
+  background-image: url("/src/images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+  background-size: 12.5rem;
+  background-position: top right -100px;
+}
+.b-team__title {
+  max-width: 15rem;
+  padding: 2rem 0 3.5rem 0;
+  position: relative;
+}
+.b-team__title::before {
+  background-color: var(--primary-light);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.125rem;
+  height: 0.25rem;
 }
 
 .b-styleguide .container {

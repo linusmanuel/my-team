@@ -10,6 +10,8 @@
 
   &::before {
     @include bg-retangle-detail;
+    left: rem(9px);
+    bottom: rem(56px);
   }
   
   &__body {
