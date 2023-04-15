@@ -647,4 +647,27 @@ body {
   margin-inline: auto;
 }
 
+.c-footer {
+  text-align: center;
+  padding-block: 4.0625rem;
+  background-color: var(--secondary-dark-3);
+}
+.c-footer .c-logo {
+  width: 6rem;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.c-footer__menu {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.c-footer__menu-link {
+  text-decoration: none;
+}
+.c-footer__menu-link:hover {
+  color: var(--secondary-light);
+}
+
 /*# sourceMappingURL=style.css.map */

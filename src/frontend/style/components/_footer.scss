@@ -1,0 +1,26 @@
+.c-footer {
+  text-align: center;
+  padding-block: rem(65px);
+  background-color: var(--secondary-dark-3);
+
+  .c-logo {
+    width: rem(96px);
+    height: rem(24px);
+    margin-bottom: rem(24px);
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    gap: rem(24px);
+    margin-bottom: rem(24px);
+
+    &-link {
+      text-decoration: none;
+
+      &:hover {
+        color: var(--secondary-light);
+      }
+    }
+  }
+}
