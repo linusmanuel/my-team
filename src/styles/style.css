@@ -43,6 +43,42 @@ body {
 }
 
 /* Fonts Weights */
+/* Hxs Styles */
+.c-title-2 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.125rem;
+  letter-spacing: 1.5px;
+}
+.c-title-2 span {
+  color: var(--primary-light);
+}
+
+.c-title-3 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.c-title-4 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph */
+.c-text {
+  font-size: 0.9375rem;
+  color: var(--white);
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
 .b-colors {
   padding-inline: 9.6em;
   padding-top: 62px;
@@ -210,34 +246,6 @@ body {
   line-height: 1.5625rem;
 }
 
-/* Hxs Styles */
-.c-title-2 {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  margin-bottom: 1.125rem;
-  letter-spacing: 1.5px;
-}
-.c-title-2 span {
-  color: var(--primary-light);
-}
-
-.c-title-3 {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 2rem;
-}
-
-/* Paragraph */
-.c-text {
-  font-size: 0.9375rem;
-  color: var(--white);
-  font-weight: 600;
-  line-height: 1.75rem;
-}
-
 .b-buttons {
   padding-inline: 6rem;
   padding-bottom: 3.5rem;
@@ -394,6 +402,11 @@ body {
   width: 3.125rem;
   height: 0.25rem;
 }
+.b-team__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 
 .b-styleguide .container {
   max-width: 1200px;
@@ -518,6 +531,25 @@ body {
 .c-menu__navigation {
   display: none;
   position: absolute;
+}
+
+.c-team__card {
+  text-align: center;
+}
+.c-team__card-image {
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+.c-team__card-image img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.c-team__card-title {
+  color: var(--primary-light);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,3 +10,41 @@ $regular: 400;
 $semi-bold: 600;
 $bold: 700;
 $black: 900;
+
+/* Hxs Styles */
+.c-title-2 {
+  color: var(--white);
+  font-weight: $bold;
+  font-size: rem(40px);
+  line-height: rem(40px);
+  margin-bottom: rem(18px);
+  letter-spacing: 1.5px;
+  
+  span {
+    color: var(--primary-light);
+  }
+}
+
+.c-title-3 {
+  color: var(--white);
+  font-weight: $bold;
+  font-size: rem(32px);
+  line-height: rem(32px);
+}
+
+.c-title-4 {
+  font-weight: $bold;
+  font-size: rem(18px);
+  line-height: rem(28px);
+  color: var(--white);
+  margin-bottom: rem(8px);
+}
+
+
+/* Paragraph */
+.c-text {
+  font-size: rem(15px);
+  color: var(--white);
+  font-weight: $semi-bold;
+  line-height: rem(28px);
+}

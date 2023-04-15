@@ -1,0 +1,20 @@
+.c-team__card {
+  text-align: center;
+  &-image {
+    display: block;
+    @include squares(rem(72px));
+    margin-inline: auto;
+    margin-bottom: rem(16px);
+
+    img {
+      object-fit: contain;
+      @include squares(100%);
+    }
+  }
+
+  &-title {
+    color: var(--primary-light);
+  }
+
+
+}
