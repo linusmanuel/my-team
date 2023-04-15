@@ -1,0 +1,15 @@
+.c-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .c-logo {
+    width: rem(128px);
+  }
+
+  &__navigation {
+    display: none;
+    position: absolute;
+  }
+}

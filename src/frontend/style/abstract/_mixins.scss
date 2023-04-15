@@ -14,3 +14,14 @@
   flex-direction: column;
   gap: $gap;
 }
+
+@mixin bg-retangle-detail {
+  content: "";
+    background-image: url('/src/images/bg-retangle-detail.svg');
+    display: block;
+    position: absolute;
+    width: rem(100px);
+    height: 44px;
+    bottom: 56px;
+    left: rem(9px);
+}

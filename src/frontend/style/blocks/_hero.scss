@@ -1,0 +1,18 @@
+.b-hero {
+  background-color: var(--primary);
+  min-height: rem(576px);
+  padding-block: rem(48px);
+  text-align: center;
+  background-image: url('/src/images/bg-hero.svg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: relative;
+
+  &::before {
+    @include bg-retangle-detail;
+  }
+  
+  &__body {
+    padding-block: rem(80px);
+  }
+}

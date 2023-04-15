@@ -34,6 +34,10 @@ hr {
   background-color: var(--gray);
 }
 
+.container {
+  padding-inline: 1.5rem;
+}
+
 body {
   font-family: "Livvic", sans-serif;
 }
@@ -206,6 +210,27 @@ body {
   line-height: 1.5625rem;
 }
 
+/* Hxs Styles */
+.c-title-2 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.125rem;
+  letter-spacing: 1.5px;
+}
+.c-title-2 span {
+  color: var(--primary-light);
+}
+
+/* Paragraph */
+.c-text {
+  font-size: 0.9375rem;
+  color: var(--white);
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
 .b-buttons {
   padding-inline: 6rem;
   padding-bottom: 3.5rem;
@@ -316,6 +341,30 @@ body {
   width: 18.5rem;
 }
 
+.b-hero {
+  background-color: var(--primary);
+  min-height: 36rem;
+  padding-block: 3rem;
+  text-align: center;
+  background-image: url("/src/images/bg-hero.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: relative;
+}
+.b-hero::before {
+  content: "";
+  background-image: url("/src/images/bg-retangle-detail.svg");
+  display: block;
+  position: absolute;
+  width: 6.25rem;
+  height: 44px;
+  bottom: 56px;
+  left: 0.5625rem;
+}
+.b-hero__body {
+  padding-block: 5rem;
+}
+
 .b-styleguide .container {
   max-width: 1200px;
   width: 100%;
@@ -382,6 +431,22 @@ body {
   color: var(--secondary-dark-3);
   border-color: var(--secondary-light);
 }
+.c-btn--hamburger {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 1.25rem;
+  height: 1.0625rem;
+  display: flex;
+  gap: 0.25rem;
+  flex-direction: column;
+}
+.c-btn--hamburger__line {
+  background-color: var(--white);
+  height: 0.1875rem;
+  display: block;
+  width: 100%;
+}
 
 .c-input {
   outline: none;
@@ -409,6 +474,20 @@ body {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: 600;
+}
+
+.c-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.c-menu .c-logo {
+  width: 8rem;
+}
+.c-menu__navigation {
+  display: none;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

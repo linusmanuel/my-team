@@ -47,4 +47,22 @@
       border-color: var(--secondary-light);
     }
   }
+
+  &--hamburger {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: rem(20px);
+    height: rem(17px);
+    display: flex;
+    gap: rem(4px);
+    flex-direction: column;
+
+    &__line {
+      background-color: var(--white);
+      height: rem(3px);
+      display: block;
+      width: 100%;
+    }
+  }
 }
