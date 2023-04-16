@@ -23,4 +23,18 @@
       }
     }
   }
+
+  &__address {
+    padding-inline: rem(100px);
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    opacity: .6;
+  }
+
+  &__copyright {
+    opacity: .6;
+  }
 }
