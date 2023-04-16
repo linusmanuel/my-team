@@ -3,6 +3,15 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  padding-top: rem(48px);
+
+  &--home {
+    background-color: var(--primary);
+  }
+
+  &--about {
+    background-color: var(--secondary-dark);
+  }
 
   .c-logo {
     width: rem(128px);

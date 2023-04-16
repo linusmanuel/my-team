@@ -367,8 +367,8 @@ body {
 
 .b-hero {
   background-color: var(--primary);
-  min-height: 36rem;
-  padding-block: 3rem;
+  min-height: 30.4375rem;
+  padding-top: 5rem;
   text-align: center;
   background-image: url("/src/images/bg-hero.svg");
   background-repeat: no-repeat;
@@ -384,9 +384,6 @@ body {
   height: 2.75rem;
   left: 0.5625rem;
   bottom: 3.5rem;
-}
-.b-hero__body {
-  padding-block: 5rem;
 }
 
 .b-team {
@@ -477,6 +474,12 @@ body {
   color: var(--white);
   letter-spacing: -0.45px;
   font-weight: 700;
+}
+
+.b-about {
+  background-color: var(--secondary-dark);
+  padding: 5rem 0 6.75rem 0;
+  text-align: center;
 }
 
 .c-btn {
@@ -573,6 +576,13 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  padding-top: 3rem;
+}
+.c-menu--home {
+  background-color: var(--primary);
+}
+.c-menu--about {
+  background-color: var(--secondary-dark);
 }
 .c-menu .c-logo {
   width: 8rem;

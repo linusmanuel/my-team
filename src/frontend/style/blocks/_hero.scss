@@ -1,7 +1,7 @@
 .b-hero {
   background-color: var(--primary);
-  min-height: rem(576px);
-  padding-block: rem(48px);
+  min-height: calc(rem(567px) - rem(80px));
+  padding-top: rem(80px);
   text-align: center;
   background-image: url('/src/images/bg-hero.svg');
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     bottom: rem(56px);
   }
   
-  &__body {
-    padding-block: rem(80px);
-  }
+  // &__body {
+  //   padding-block: rem(80px);
+  // }
 }
