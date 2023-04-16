@@ -65,4 +65,19 @@
       width: 100%;
     }
   }
+
+  &--add,
+  &--close {
+    @include squares(rem(56px));
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    font-size: rem(28px);
+    font-weight: $extra-bold;
+    color: var(--secondary-dark-2);
+  }
+
+  &--add {
+    background-color: var(--primary-light);
+  }
 }

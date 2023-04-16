@@ -1,0 +1,13 @@
+.b-employees {
+  background-color: var(--secondary-dark);
+  padding-block: rem(88px);
+  text-align: center;
+
+  &__title {
+    margin-bottom: rem(48px);
+  }
+
+  &__cards {
+    @include flex-column-gap(rem(52px));
+  }
+}

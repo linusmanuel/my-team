@@ -41,3 +41,24 @@
     margin-bottom: rem(16px);
   }
 }
+
+/* CARD EMPLOYEES*/
+.c-employees__card {
+  background-color: var(--secondary-dark-2);
+  padding: rem(32px) 0 rem(22px) 0;
+  &-image {
+    @include squares(rem(96px));
+    @include c-picture;
+    margin-inline: auto;
+    margin-bottom: rem(16px);
+  }
+
+  &-title {
+    color: var(--secondary-light);
+    margin-bottom: 0;
+  }  
+
+  &-button {
+    transform: translateY(50px);
+  }
+}

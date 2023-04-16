@@ -454,6 +454,20 @@ body {
   gap: 3rem;
 }
 
+.b-employees {
+  background-color: var(--secondary-dark);
+  padding-block: 5.5rem;
+  text-align: center;
+}
+.b-employees__title {
+  margin-bottom: 3rem;
+}
+.b-employees__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.25rem;
+}
+
 .b-styleguide .container {
   max-width: 1200px;
   width: 100%;
@@ -477,7 +491,10 @@ body {
 }
 
 .b-about {
-  background-color: var(--secondary-dark);
+  background-color: var(--primary);
+  background-image: url("/src/images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
   padding: 5rem 0 6.75rem 0;
   text-align: center;
 }
@@ -542,6 +559,19 @@ body {
   display: block;
   width: 100%;
 }
+.c-btn--add, .c-btn--close {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--secondary-dark-2);
+}
+.c-btn--add {
+  background-color: var(--primary-light);
+}
 
 .c-input {
   outline: none;
@@ -582,7 +612,7 @@ body {
   background-color: var(--primary);
 }
 .c-menu--about {
-  background-color: var(--secondary-dark);
+  background-color: var(--primary);
 }
 .c-menu .c-logo {
   width: 8rem;
@@ -639,6 +669,34 @@ body {
 }
 .c-stories__card-text {
   margin-bottom: 1rem;
+}
+
+/* CARD EMPLOYEES*/
+.c-employees__card {
+  background-color: var(--secondary-dark-2);
+  padding: 2rem 0 1.375rem 0;
+}
+.c-employees__card-image {
+  height: 6rem;
+  width: 6rem;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 2px var(--border-color);
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+.c-employees__card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.c-employees__card-title {
+  color: var(--secondary-light);
+  margin-bottom: 0;
+}
+.c-employees__card-button {
+  transform: translateY(50px);
 }
 
 .c-cta {

@@ -1,5 +1,8 @@
 .b-about {
-  background-color: var(--secondary-dark);
+  background-color: var(--primary);
+  background-image: url('/src/images/bg-pattern-about-1-mobile-nav-1.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
   padding: rem(80px) 0 rem(108px) 0;
   text-align: center;
 }
