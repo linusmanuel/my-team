@@ -45,7 +45,7 @@
 /* CARD EMPLOYEES*/
 .c-employees__card {
   background-color: var(--secondary-dark-2);
-  padding: rem(32px) 0 rem(22px) 0;
+  padding: rem(32px) rem(46.5px) rem(22px) rem(46.5px);
   &-image {
     @include squares(rem(96px));
     @include c-picture;
@@ -57,6 +57,15 @@
     color: var(--secondary-light);
     margin-bottom: 0;
   }  
+  
+  .c-social-media {
+    padding-block: 0;
+    margin-top: rem(24px);
+    
+    &__item {
+      @include squares(rem(20px));
+    }
+  }
 
   &-button {
     transform: translateY(50px);

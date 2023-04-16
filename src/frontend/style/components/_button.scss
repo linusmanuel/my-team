@@ -80,4 +80,13 @@
   &--add {
     background-color: var(--primary-light);
   }
+
+  &--close {
+    background-color: var(--secondary-light);
+
+    span {
+      display: inline-block;
+      transform: rotate(227deg);
+    }
+  }
 }
