@@ -3,6 +3,9 @@
   padding-top: rem(80px);
   padding-bottom: rem(88px);
   text-align: center;
+  background-image: url('/src/images/bg-pattern-contact-2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom rem(-110px) right rem(-100px);
 
   &__subtitle {
     color: var(--primary-light);

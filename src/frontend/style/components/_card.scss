@@ -71,3 +71,19 @@
     transform: translateY(50px);
   }
 }
+
+/* CARD CONTACT ABOUT US*/
+.c-contact-cards {
+
+}
+
+.c-contact__card {
+  display: flex;
+  text-align: left;
+  gap: rem(23px);
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: rem(16px);
+  }
+}

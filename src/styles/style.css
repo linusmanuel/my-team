@@ -392,7 +392,7 @@ body {
   background-image: url("/src/images/bg-pattern-home-3.svg");
   background-repeat: no-repeat;
   background-size: 12.5rem;
-  background-position: top right -100px;
+  background-position: top right -6.25rem;
 }
 .b-team__title {
   max-width: 15rem;
@@ -500,6 +500,9 @@ body {
   padding-top: 5rem;
   padding-bottom: 5.5rem;
   text-align: center;
+  background-image: url("/src/images/bg-pattern-contact-2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -6.875rem right -6.25rem;
 }
 .b-contact__subtitle {
   color: var(--primary-light);
@@ -750,6 +753,17 @@ body {
 }
 .c-employees__card-button {
   transform: translateY(50px);
+}
+
+/* CARD CONTACT ABOUT US*/
+.c-contact__card {
+  display: flex;
+  text-align: left;
+  gap: 1.4375rem;
+  align-items: center;
+}
+.c-contact__card:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 .c-cta {

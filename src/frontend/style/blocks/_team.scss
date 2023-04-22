@@ -4,7 +4,7 @@
   background-image: url('/src/images/bg-pattern-home-3.svg');
   background-repeat: no-repeat;
   background-size: rem(200px);
-  background-position: top right -100px;
+  background-position: top right rem(-100px);
 
   &__title {
     max-width: rem(240px );
