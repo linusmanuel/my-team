@@ -508,6 +508,9 @@ body {
   color: var(--primary-light);
   margin-bottom: 2.5rem;
 }
+.b-contact__cards {
+  padding-bottom: 3.5rem;
+}
 
 .b-styleguide .container {
   max-width: 1200px;
@@ -633,12 +636,16 @@ body {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: 600;
+  margin-bottom: 24px;
 }
 .c-input--field {
   padding-bottom: 1.0625rem;
 }
 .c-input::placeholder {
   opacity: 0.6;
+}
+.c-input--text-area {
+  height: 6.6875rem;
 }
 .c-input:active, .c-input:focus {
   border-color: var(--secondary-light);
