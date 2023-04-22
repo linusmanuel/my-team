@@ -1,49 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | myteam website challenge - Contact</title>
-</head>
-<body>
-
-  home
-  about
-
-  contact us
-
-
-
-  Contact
-
-  Ask us about
-
-  The quality of our talent network
-  Usage & implementation of our software
-  How we help drive innovation
-
-  Name
-  Email Address
-  Company Name
-  Title
-  Message
-
-  submit
-
-
-
-  home
-  about
-
-  987  Hillcrest Lane
-  Irvine, CA
-  California 92714
-  Call Us : 949-833-7432
-
-  Copyright 2020. All Rights Reserved
-  
-</body>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="src/styles/style.css" />
+		<title>Myteam - About</title>
+	</head>
+	<body>
+		<header class="c-menu c-menu--about container">
+			<img src="/src/images/logo.svg" alt="My team logo" class="c-logo" />
+			<button class="c-btn--hamburger">
+				<span class="c-btn--hamburger__line"></span>
+				<span class="c-btn--hamburger__line"></span>
+				<span class="c-btn--hamburger__line"></span>
+			</button>
+			<nav class="c-menu__navigation">
+				<ul>
+					<li class="c-menu__item">
+						<a href="#" class="c-menu__link">home</a>
+					</li>
+					<li class="c-menu__item">
+						<a href="#" class="c-menu__link">about</a>
+					</li>
+					<li class="c-menu__item">
+						<a href="#" class="c-menu__link c-btn c-btn-primary-o"
+							>contact us</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="b-contact container">
+			<h2 class="b-contact__title c-title-2">contact</h2>
+			<h3 class="b-contact__subtitle c-title-3">Ask us about</h3>
+		</section>
+		<footer class="c-footer container">
+			<img src="/src/images/logo.svg" alt="My team logo" class="c-logo" />
+			<nav>
+				<ul class="c-footer__menu">
+					<li class="c-footer__menu-item">
+						<a href="/index.html" class="c-footer__menu-link c-text">home</a>
+					</li>
+					<li class="c-footer__menu-item">
+						<a href="#" class="c-footer__menu-link c-text">about</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="c-footer__address">
+				<a href="#" class="c-footer__link c-text"
+					>987 Hillcrest Lane Irvine, CA California 92714</a
+				>
+			</div>
+			<a href="tel:" class="c-footer__link c-text">Call Us : 949-833-7432</a>
+			<ul class="c-social-media">
+				<li class="c-social-media__item">
+					<img src="/src/images/icon-facebook.svg" alt="Icon facebook" />
+				</li>
+				<li class="c-social-media__item">
+					<img src="/src/images/icon-pinterest.svg" alt="Icon pinterest" />
+				</li>
+				<li class="c-social-media__item">
+					<img src="/src/images/icon-twitter.svg" alt="Icon twitter" />
+				</li>
+			</ul>
+			<p class="c-footer__copyright c-text">
+				Copyright 2023. All Rights Reserved
+			</p>
+		</footer>
+	</body>
 </html>

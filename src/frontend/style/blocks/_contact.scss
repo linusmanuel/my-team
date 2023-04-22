@@ -1,0 +1,11 @@
+.b-contact {
+  background-color: var(--primary);
+  padding-top: rem(80px);
+  padding-bottom: rem(88px);
+  text-align: center;
+
+  &__subtitle {
+    color: var(--primary-light);
+    margin-bottom: rem(40px);
+  }
+}
