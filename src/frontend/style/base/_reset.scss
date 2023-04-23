@@ -18,6 +18,10 @@ hr {
   background-color: var(--gray);
 }
 
+picture {
+  display: inline-block;
+}
+
 .container {
   padding-inline: rem(24px);
 }

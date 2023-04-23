@@ -1,0 +1,39 @@
+.b-clients {
+  background-color: var(--secondary-dark-2);
+  padding-block: rem(88px);
+  text-align: center;
+
+  &__list {
+    @include flex-column-gap(81px);
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: rem(64px);
+  }
+
+  &__client picture, img {
+    width: 100%;
+  }
+
+  &__client:nth-child(1) {
+    width: rem(146.56px);
+  }
+
+  &__client:nth-child(2) {
+    width: rem(162.21px);
+  }
+
+  &__client:nth-child(3) {
+    width: rem(162.21px);
+  }
+
+  &__client:nth-child(4) {
+    width: rem(160px);
+  }
+
+   &__client:nth-child(5) {
+    width: rem(90px);
+  }
+
+}

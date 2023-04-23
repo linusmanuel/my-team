@@ -35,6 +35,10 @@ hr {
   background-color: var(--gray);
 }
 
+picture {
+  display: inline-block;
+}
+
 .container {
   padding-inline: 1.5rem;
 }
@@ -510,6 +514,39 @@ body {
 }
 .b-contact__cards {
   padding-bottom: 3.5rem;
+}
+
+.b-clients {
+  background-color: var(--secondary-dark-2);
+  padding-block: 5.5rem;
+  text-align: center;
+}
+.b-clients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 81px;
+  align-items: center;
+}
+.b-clients__title {
+  margin-bottom: 4rem;
+}
+.b-clients__client picture, .b-clients img {
+  width: 100%;
+}
+.b-clients__client:nth-child(1) {
+  width: 9.16rem;
+}
+.b-clients__client:nth-child(2) {
+  width: 10.138125rem;
+}
+.b-clients__client:nth-child(3) {
+  width: 10.138125rem;
+}
+.b-clients__client:nth-child(4) {
+  width: 10rem;
+}
+.b-clients__client:nth-child(5) {
+  width: 5.625rem;
 }
 
 .b-styleguide .container {
