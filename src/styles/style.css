@@ -595,6 +595,7 @@ body {
   color: var(--secondary-dark-2);
   text-decoration: none;
   font-weight: 600;
+  cursor: pointer;
 }
 .c-btn-primary-o {
   color: var(--white);

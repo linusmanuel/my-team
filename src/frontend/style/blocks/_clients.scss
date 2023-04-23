@@ -2,6 +2,7 @@
   background-color: var(--secondary-dark-2);
   padding-block: rem(88px);
   text-align: center;
+  // background-image: url('/src/images/bg-pattern-about-2-contact-1.svg');
 
   &__list {
     @include flex-column-gap(81px);
