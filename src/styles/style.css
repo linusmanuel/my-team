@@ -23,6 +23,7 @@
 
 body {
   font-size: 62.5%;
+  position: relative;
 }
 
 ul {
@@ -634,6 +635,9 @@ body {
   display: flex;
   gap: 0.25rem;
   flex-direction: column;
+  position: fixed;
+  z-index: 999;
+  right: 24px;
 }
 .c-btn--hamburger__line {
   background-color: var(--white);
@@ -698,8 +702,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   padding-top: 3rem;
+  text-align: center;
 }
 .c-menu--home {
   background-color: var(--primary);
@@ -711,8 +715,38 @@ body {
   width: 8rem;
 }
 .c-menu__navigation {
-  display: none;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-image: url("/src/images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+  background-color: var(--secondary);
+  align-items: center;
+  width: 68%;
+  top: 0;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+  z-index: 992;
+}
+.c-menu__navigation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  margin-top: 10.25rem;
+}
+.c-menu__item a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.c-menu__item a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: var(--white);
+  font-weight: 600;
 }
 
 /* TEAM CARD */

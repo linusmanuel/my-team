@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   padding-top: rem(48px);
+  text-align: center;
 
   &--home {
     background-color: var(--primary);
@@ -18,7 +18,37 @@
   }
 
   &__navigation {
-    display: none;
-    position: absolute;
+    @include flex-column-gap;
+    background-image: url('/src/images/bg-pattern-about-1-mobile-nav-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right -100px;
+    background-color: var(--secondary);
+    align-items: center;
+    width: 68%;
+    top: 0;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    z-index: 992;
+    // display: none;
+    
+    ul {
+      @include flex-column-gap(rem(36px));
+      margin-top: rem(164px);
+    }
+  }
+
+  &__item a {
+    text-decoration: none;
+    font-size: rem(18px);
+    color: var(--white);
+    font-weight: $semi-bold;
+  }
+
+  &__item a {
+    text-decoration: none;
+    font-size: rem(18px);
+    color: var(--white);
+    font-weight: $semi-bold;
   }
 }

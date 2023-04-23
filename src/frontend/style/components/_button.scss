@@ -58,6 +58,9 @@
     display: flex;
     gap: rem(4px);
     flex-direction: column;
+    position: fixed;
+    z-index: 999;
+    right: 24px;
 
     &__line {
       background-color: var(--white);
