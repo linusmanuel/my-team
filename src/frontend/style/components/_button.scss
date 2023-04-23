@@ -67,8 +67,27 @@
       height: rem(3px);
       display: block;
       width: 100%;
+      transition: .3s ease-in-out;      
     }
   }
+
+  &--hamburger.active {
+    .c-btn--hamburger__line:first-child {
+      transform: translateY(rem(7px)) rotate(45deg);
+      transition: .3s ease-in;
+    }
+
+    .c-btn--hamburger__line:nth-child(2) {
+      transform: translate3d(100vw, 0, 0);
+      transition: 3s ease-out;
+    }
+
+   .c-btn--hamburger__line:last-child {
+      transform: translateY(rem(-7px)) rotate(-45deg);
+      transition: .3s ease-in;
+    }
+  }
+
 
   &--add,
   &--close {

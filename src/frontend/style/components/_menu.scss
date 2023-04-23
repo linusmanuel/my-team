@@ -18,10 +18,9 @@
   }
 
   &__navigation {
-    @include flex-column-gap;
     background-image: url('/src/images/bg-pattern-about-1-mobile-nav-1.svg');
     background-repeat: no-repeat;
-    background-position: bottom right -100px;
+    background-position: bottom right rem(-100px);
     background-color: var(--secondary);
     align-items: center;
     width: 68%;
@@ -30,12 +29,21 @@
     right: 0;
     position: fixed;
     z-index: 992;
-    // display: none;
+    transform: translate3d(100vw, 0, 0);
+    transition: .3s ease-in-out; 
+    text-align: center;
     
     ul {
       @include flex-column-gap(rem(36px));
       margin-top: rem(164px);
     }
+  }
+
+  &__navigation.active {
+    @include flex-column-gap;
+    transform: translate3d(0, 0, 0);
+    transform-origin: right;
+    transition: .3s ease-out;
   }
 
   &__item a {

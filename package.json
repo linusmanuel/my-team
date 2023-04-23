@@ -2,7 +2,7 @@
   "name": "my-team",
   "version": "1.0.0",
   "description": "My team is a challenge from frontend mentor.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "sass -w src/frontend/style/main.scss:src/styles/style.css"
   },

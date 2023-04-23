@@ -644,6 +644,19 @@ body {
   height: 0.1875rem;
   display: block;
   width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.c-btn--hamburger.active .c-btn--hamburger__line:first-child {
+  transform: translateY(0.4375rem) rotate(45deg);
+  transition: 0.3s ease-in;
+}
+.c-btn--hamburger.active .c-btn--hamburger__line:nth-child(2) {
+  transform: translate3d(100vw, 0, 0);
+  transition: 3s ease-out;
+}
+.c-btn--hamburger.active .c-btn--hamburger__line:last-child {
+  transform: translateY(-0.4375rem) rotate(-45deg);
+  transition: 0.3s ease-in;
 }
 .c-btn--add, .c-btn--close {
   height: 3.5rem;
@@ -715,12 +728,9 @@ body {
   width: 8rem;
 }
 .c-menu__navigation {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
   background-image: url("/src/images/bg-pattern-about-1-mobile-nav-1.svg");
   background-repeat: no-repeat;
-  background-position: bottom right -100px;
+  background-position: bottom right -6.25rem;
   background-color: var(--secondary);
   align-items: center;
   width: 68%;
@@ -729,12 +739,23 @@ body {
   right: 0;
   position: fixed;
   z-index: 992;
+  transform: translate3d(100vw, 0, 0);
+  transition: 0.3s ease-in-out;
+  text-align: center;
 }
 .c-menu__navigation ul {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
   margin-top: 10.25rem;
+}
+.c-menu__navigation.active {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transform: translate3d(0, 0, 0);
+  transform-origin: right;
+  transition: 0.3s ease-out;
 }
 .c-menu__item a {
   text-decoration: none;
