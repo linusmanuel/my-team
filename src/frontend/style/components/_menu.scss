@@ -60,3 +60,29 @@
     font-weight: $semi-bold;
   }
 }
+
+@include tablet-up {
+  .c-menu {
+    gap: rem(48px);
+    padding-top: rem(64px);
+
+    &__navigation {
+      background-color: transparent;
+      position: static;
+      transform: translate3d(0,0,0);
+      height: auto;
+      background-image: none;
+      width: 100%;
+    }
+    
+    &__navigation ul {
+      flex-direction: row;
+      margin-top: 0;
+      align-items: center;
+    }
+
+    &__navigation li:last-child {
+      margin-left: auto;
+    }
+  }
+}

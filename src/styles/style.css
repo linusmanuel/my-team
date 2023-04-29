@@ -15,6 +15,7 @@
 
 /* Container width */
 /* FONTS */
+/* BREAKPOINTS */
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +45,11 @@ picture {
   padding-inline: 1.5rem;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    padding-inline: 2.46875rem;
+  }
+}
 body {
   font-family: "Livvic", sans-serif;
 }
@@ -679,6 +685,11 @@ body {
   transform: rotate(227deg);
 }
 
+@media screen and (min-width: 768px) {
+  .c-btn--hamburger {
+    display: none;
+  }
+}
 .c-input {
   outline: none;
   background-color: transparent;
@@ -770,6 +781,28 @@ body {
   font-weight: 600;
 }
 
+@media screen and (min-width: 768px) {
+  .c-menu {
+    gap: 3rem;
+    padding-top: 4rem;
+  }
+  .c-menu__navigation {
+    background-color: transparent;
+    position: static;
+    transform: translate3d(0, 0, 0);
+    height: auto;
+    background-image: none;
+    width: 100%;
+  }
+  .c-menu__navigation ul {
+    flex-direction: row;
+    margin-top: 0;
+    align-items: center;
+  }
+  .c-menu__navigation li:last-child {
+    margin-left: auto;
+  }
+}
 /* TEAM CARD */
 .c-team__card {
   text-align: center;

@@ -113,3 +113,11 @@
     }
   }
 }
+
+@include tablet-up {
+  .c-btn {
+    &--hamburger {
+      display: none;
+    }
+  }
+}

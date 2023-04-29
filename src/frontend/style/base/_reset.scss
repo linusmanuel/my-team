@@ -26,3 +26,9 @@ picture {
 .container {
   padding-inline: rem(24px);
 }
+
+@include tablet-up {
+  .container {
+    padding-inline: rem(39.5px);
+  }
+}

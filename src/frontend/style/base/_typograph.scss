@@ -58,3 +58,18 @@ $black: 900;
   font-weight: $medium;
   font-style: italic;
 }
+
+@include tablet-up {
+  .c-title-2 {
+  // color: var(--white);
+  // font-weight: $bold;
+  // font-size: rem(40px);
+  // line-height: rem(40px);
+  // margin-bottom: rem(18px);
+  // letter-spacing: 1.5px;
+  
+  span {
+    // color: var(--primary-light);
+  }
+}
+}
