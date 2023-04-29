@@ -39,6 +39,10 @@
     }
   }
 
+  &__navigation li:nth-child(1) {
+    display: none;
+  }
+
   &__navigation.active {
     @include flex-column-gap;
     transform: translate3d(0, 0, 0);
@@ -79,6 +83,11 @@
       flex-direction: row;
       margin-top: 0;
       align-items: center;
+      gap: rem(40px);
+    }
+
+    &__navigation li:nth-child(1) {
+      display: block;
     }
 
     &__navigation li:last-child {

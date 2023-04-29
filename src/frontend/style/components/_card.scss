@@ -83,3 +83,17 @@
     margin-bottom: rem(16px);
   }
 }
+
+@include tablet-up {
+  .c-team__card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+    column-gap: rem(23px);
+
+    &-image {
+      grid-column: 1/2;
+      grid-row: 1/3;
+    }
+  }
+}

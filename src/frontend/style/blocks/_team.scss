@@ -26,3 +26,19 @@
     @include flex-column-gap(rem(48px));
   }
 } 
+
+@include tablet-up {
+  .b-team {
+    padding-block: rem(100px);
+    padding-inline: rem(98px);
+
+    &__title {
+      max-width: rem(445px);
+      padding-bottom: rem(64px);
+    }
+
+    &__cards {
+      gap: rem(32px);
+    }
+  }
+}
