@@ -99,6 +99,13 @@ body {
   font-style: italic;
 }
 
+@media screen and (min-width: 768px) {
+  .c-title-2 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
 .b-colors {
   padding-inline: 9.6em;
   padding-top: 62px;
@@ -397,6 +404,18 @@ body {
   bottom: 3.5rem;
 }
 
+@media screen and (min-width: 768px) {
+  .b-hero {
+    min-height: 36.75rem;
+    padding-top: 7rem;
+  }
+  .b-hero::before {
+    left: 12.875rem;
+  }
+  .b-hero__body {
+    padding-inline: 7.125rem;
+  }
+}
 .b-team {
   background-color: var(--secondary-dark-2);
   padding-block: 4rem;

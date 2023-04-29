@@ -14,3 +14,18 @@
     bottom: rem(56px);
   }
 }
+
+@include tablet-up {
+  .b-hero {
+    min-height: calc(rem(700px) - rem(112px));
+    padding-top: rem(112px);
+
+    &::before {
+      left: rem(206px);
+    }
+
+    &__body {
+      padding-inline: rem(114px);
+    }
+  }
+}
