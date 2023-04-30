@@ -15,3 +15,21 @@
     margin-inline: auto;
   }
 }
+
+@include tablet-up {
+  .c-cta {
+    display: flex;
+    padding-inline: rem(98px);
+    padding-block: rem(84px);
+    justify-content: space-between;
+    align-items: center;
+
+    &__title  {
+      margin-bottom: 0;
+    }
+
+    a {
+      margin-inline: 0;
+    }
+  }
+}

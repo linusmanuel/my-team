@@ -38,3 +38,46 @@
     opacity: .6;
   }
 }
+
+@include tablet-up {
+  .c-footer {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+      "logo address"
+      "nav-menu tel"
+      "social copyright"
+    ;
+
+    .c-logo {
+      grid-area: logo;
+    }
+
+    &__address {
+      grid-area: address;
+      align-self: center;
+      justify-self: end;
+      padding-inline: 0;
+    }
+
+    &__link {
+      grid-area: tel;
+      justify-self: end;
+    }
+
+    nav {
+      grid-area: nav-menu;
+    }
+
+    nav ul {
+      justify-content: start;
+    }
+
+    &__copyright {
+      grid-area: copyright;
+      align-self: center;
+      justify-self: end;
+    }
+  }
+}

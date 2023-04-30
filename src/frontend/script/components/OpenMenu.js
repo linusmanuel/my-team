@@ -1,6 +1,5 @@
 export function openMenu() {
-	console.log('Funciounou');
-	const btnHamburger = document.querySelector('.c-btn--hamburger');
+	const btnHamburger = document.querySelector('[data-openMenu]');
 	btnHamburger.addEventListener('click', () => {
 		btnHamburger.classList.toggle('active');
 	});
