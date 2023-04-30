@@ -37,6 +37,7 @@
 
 @include tablet-up {
   .b-employees {
+    background-position: top 0 left rem(-100px);
     padding-top: rem(100px);
     padding-bottom: rem(128px);
 
