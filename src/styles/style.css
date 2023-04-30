@@ -633,11 +633,20 @@ body {
   background-color: var(--primary);
   background-image: url("/src/images/bg-pattern-about-1-mobile-nav-1.svg");
   background-repeat: no-repeat;
-  background-position: bottom -100px right -100px;
+  background-position: bottom -6.25rem right -6.25rem;
   padding: 5rem 0 6.75rem 0;
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .b-about {
+    padding-block: 7rem;
+    background-position: bottom 0 right -6.25rem;
+  }
+  .b-about__body {
+    padding-inline: 9.71875rem;
+  }
+}
 .c-btn {
   background-color: transparent;
   width: 9.5625rem;
