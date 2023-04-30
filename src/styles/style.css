@@ -497,6 +497,25 @@ body {
   gap: 3rem;
 }
 
+@media screen and (min-width: 768px) {
+  .b-stories {
+    padding-block: 6.25rem;
+  }
+  .b-stories__head {
+    display: flex;
+    flex-direction: column;
+    gap: 6.125rem;
+    text-align: center;
+  }
+  .b-stories__title {
+    max-width: 35.8125rem;
+    margin-inline: auto;
+    padding-inline: 2.5625rem;
+  }
+  .b-stories__body {
+    padding-inline: 6.125rem;
+  }
+}
 .b-employees {
   background-color: var(--secondary-dark);
   padding-top: 5.5rem;

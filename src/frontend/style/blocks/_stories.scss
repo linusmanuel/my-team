@@ -34,3 +34,23 @@
     @include flex-column-gap(rem(48px));
   }
 }
+
+@include tablet-up {
+  .b-stories {
+    padding-block: rem(100px);
+    &__head {
+      @include flex-column-gap(rem(98px));
+      text-align: center;
+    }
+
+    &__title {
+      max-width: rem(573px);
+      margin-inline: auto;
+      padding-inline: rem(41px);
+    }
+
+    &__body {
+      padding-inline: rem(98px);
+    }
+  }
+}
