@@ -34,3 +34,17 @@
     @include flex-column-gap(rem(52px));
   }
 }
+
+@include tablet-up {
+  .b-employees {
+    padding-top: rem(100px);
+    padding-bottom: rem(128px);
+
+    &__cards {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: rem(11px);
+    }
+  }
+}

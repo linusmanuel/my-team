@@ -96,4 +96,10 @@
       grid-row: 1/3;
     }
   }
+
+  .c-employees__card {
+    @include squares(rem(281px));
+    max-width: rem(281px);
+    padding-inline: rem(23px);
+  }
 }
