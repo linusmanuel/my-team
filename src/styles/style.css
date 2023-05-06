@@ -587,6 +587,13 @@ body {
   padding-bottom: 3.5rem;
 }
 
+@media screen and (min-width: 768px) {
+  .b-contact {
+    padding-block: 7rem;
+    padding-inline: 7.90625rem;
+    background-position: bottom 0 right -6.25rem;
+  }
+}
 .b-clients {
   background-color: var(--secondary-dark-2);
   padding-block: 5.5rem;

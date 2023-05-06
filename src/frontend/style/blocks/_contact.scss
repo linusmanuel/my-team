@@ -16,3 +16,11 @@
     padding-bottom: rem(56px);
   }
 }
+
+@include tablet-up {
+  .b-contact {
+    padding-block: rem(112px);
+    padding-inline: rem(126.5px);
+    background-position: bottom 0 right rem(-100px);
+  }
+}
