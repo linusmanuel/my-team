@@ -7,19 +7,10 @@
   background-position: top right rem(-100px);
 
   &__title {
+    @include line(--primary-light);
     max-width: rem(240px );
     padding: rem(32px) 0 rem(56px) 0;
     position: relative;
-
-    &::before {
-      background-color: var(--primary-light);
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: rem(50px);
-      height: rem(4px);
-    }
   }
 
   &__cards {

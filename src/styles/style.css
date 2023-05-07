@@ -106,6 +106,15 @@ body {
     margin-bottom: 1.5rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .c-title-2 {
+    font-size: 6.25rem;
+    line-height: 1;
+  }
+  .c-text, .c-text-1 {
+    font-size: 1.125rem;
+  }
+}
 .b-colors {
   padding-inline: 9.6em;
   padding-top: 62px;
@@ -393,16 +402,6 @@ body {
   background-position: bottom center;
   position: relative;
 }
-.b-hero::before {
-  content: "";
-  background-image: url("/src/images/bg-retangle-detail.svg");
-  display: block;
-  position: absolute;
-  width: 6.25rem;
-  height: 2.75rem;
-  left: 0.5625rem;
-  bottom: 3.5rem;
-}
 
 @media screen and (min-width: 768px) {
   .b-hero {
@@ -414,6 +413,35 @@ body {
   }
   .b-hero__body {
     padding-inline: 7.125rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .b-hero {
+    background-position: bottom right 10.3125rem;
+  }
+  .b-hero__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875rem;
+    text-align: left;
+  }
+  .b-hero__title {
+    flex-basis: 57.2%;
+    max-width: 39.6875rem;
+  }
+  .b-hero__text {
+    position: relative;
+    max-width: 27.8125rem;
+    padding-top: 5.1875rem;
+  }
+  .b-hero__text::before {
+    background-color: var(--secondary-light);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.125rem;
+    height: 0.25rem;
   }
 }
 .b-team {

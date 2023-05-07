@@ -66,3 +66,14 @@ $black: 900;
     margin-bottom: rem(24px);
   }
 }
+
+@include desktop-large {
+  .c-title-2 {
+    font-size: rem(100px);
+    line-height: 1;
+  }
+
+.c-text {
+  font-size: rem(18px);
+  }
+}

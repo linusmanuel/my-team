@@ -7,12 +7,6 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   position: relative;
-
-  &::before {
-    @include bg-retangle-detail;
-    left: rem(9px);
-    bottom: rem(56px);
-  }
 }
 
 @include tablet-up {
@@ -26,6 +20,39 @@
 
     &__body {
       padding-inline: rem(114px);
+    }
+  }
+}
+
+@include desktop-large {
+  .b-hero {
+    background-position: bottom right rem(165px);
+    &__body {
+      display: flex;
+      justify-content: space-between;
+      gap: rem(30px);
+      text-align: left;
+    }
+
+    &__title {
+      flex-basis: 57.2%;
+      max-width: rem(635px);
+    }
+
+    &__text {
+      position: relative;
+      max-width: rem(445px);
+      padding-top: rem(83px);
+
+      &::before {
+        background-color: var(--secondary-light);
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: rem(50px);
+        height: rem(4px);
+      }
     }
   }
 }
