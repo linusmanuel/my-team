@@ -67,6 +67,20 @@
     }
   }
 
+  &-text-2 {
+    display: none;
+  }
+
+  &.active {
+    .c-employees__card-text-2 {
+      display: block;
+    }
+
+    .c-employees__card-text {
+      display: none;
+    }
+  }
+
   &-button {
     transform: translateY(50px);
   }

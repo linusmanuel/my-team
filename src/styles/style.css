@@ -801,11 +801,11 @@ body {
 .c-btn--add {
   background-color: var(--primary-light);
 }
-.c-btn--close {
+.c-btn--add.active {
   background-color: var(--secondary-light);
 }
-.c-btn--close span {
-  display: inline-block;
+.c-btn--add.active span {
+  display: block;
   transform: rotate(227deg);
 }
 
@@ -1014,6 +1014,15 @@ body {
 .c-employees__card .c-social-media__item {
   height: 1.25rem;
   width: 1.25rem;
+}
+.c-employees__card-text-2 {
+  display: none;
+}
+.c-employees__card.active .c-employees__card-text-2 {
+  display: block;
+}
+.c-employees__card.active .c-employees__card-text {
+  display: none;
 }
 .c-employees__card-button {
   transform: translateY(50px);

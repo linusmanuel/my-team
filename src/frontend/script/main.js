@@ -1,5 +1,4 @@
-// import { openMenu } from '/components/OpenMenu.js';
-
+//Essas funções vão ficar em arquivos separados no futuro...
 function openMenu() {
 	const btnHamburger = document.querySelector('[data-openMenu]');
 	const menu = document.querySelector('[data-menu]');
@@ -10,4 +9,15 @@ function openMenu() {
 	});
 }
 
+function activeCard() {
+	const btnPlus = document.querySelector('[data-active]');
+	const cardEmployees = document.querySelector('[data-employees]');
+
+	btnPlus.addEventListener('click', () => {
+		cardEmployees.classList.toggle('active');
+		btnPlus.classList.toggle('active');
+	});
+}
+
+activeCard();
 openMenu();

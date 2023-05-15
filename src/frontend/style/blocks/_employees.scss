@@ -33,6 +33,8 @@
   &__cards {
     @include flex-column-gap(rem(52px));
   }
+
+  
 }
 
 @include tablet-up {
