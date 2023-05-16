@@ -61,6 +61,7 @@
   .c-social-media {
     padding-block: 0;
     margin-top: rem(24px);
+    display: none;
     
     &__item {
       @include squares(rem(20px));
@@ -76,8 +77,16 @@
       display: block;
     }
 
+    .c-employees__card-image {
+      display: none;
+    }
+
     .c-employees__card-text {
       display: none;
+    }
+
+    .c-social-media {
+      display: flex;
     }
   }
 

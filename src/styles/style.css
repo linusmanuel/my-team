@@ -37,10 +37,6 @@ hr {
   background-color: var(--gray);
 }
 
-picture {
-  display: inline-block;
-}
-
 .container {
   padding-inline: 1.5rem;
 }
@@ -1010,6 +1006,7 @@ body {
 .c-employees__card .c-social-media {
   padding-block: 0;
   margin-top: 1.5rem;
+  display: none;
 }
 .c-employees__card .c-social-media__item {
   height: 1.25rem;
@@ -1021,8 +1018,14 @@ body {
 .c-employees__card.active .c-employees__card-text-2 {
   display: block;
 }
+.c-employees__card.active .c-employees__card-image {
+  display: none;
+}
 .c-employees__card.active .c-employees__card-text {
   display: none;
+}
+.c-employees__card.active .c-social-media {
+  display: flex;
 }
 .c-employees__card-button {
   transform: translateY(50px);
