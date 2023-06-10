@@ -126,3 +126,11 @@
     padding-inline: rem(23px);
   }
 }
+
+@include desktop-large {
+  .c-team__card {
+    &-text {
+      font-size: rem(15px);
+    }
+  }
+}

@@ -33,3 +33,23 @@
     }
   }
 }
+
+@include desktop-large {
+  .b-team {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: rem(165px);
+    background-position: bottom right rem(-100px);
+    
+
+    &__header {
+      max-width: rem(445px);
+      width: 100%;
+    }
+
+    &__body {
+      max-width: rem(540px);
+      width: 100%;
+    }
+  }
+}
