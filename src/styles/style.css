@@ -560,6 +560,20 @@ body {
     padding-inline: 6.125rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .b-stories {
+    padding-inline: 10.3125rem;
+  }
+  .b-stories__title {
+    max-width: 100%;
+  }
+  .b-stories__body {
+    padding-inline: 0;
+  }
+  .b-stories__cards {
+    flex-direction: row;
+  }
+}
 .b-employees {
   background-color: var(--secondary-dark);
   padding-top: 5.5rem;
@@ -1081,8 +1095,12 @@ body {
   }
 }
 @media screen and (min-width: 1400px) {
-  .c-team__card-text {
+  .c-team__card-text,
+  .c-stories__card-text {
     font-size: 0.9375rem;
+  }
+  .c-stories__card {
+    max-width: 21.875rem;
   }
 }
 .c-cta {

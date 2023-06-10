@@ -128,9 +128,14 @@
 }
 
 @include desktop-large {
-  .c-team__card {
+  .c-team__card, 
+  .c-stories__card {
     &-text {
       font-size: rem(15px);
     }
+  }
+
+  .c-stories__card {
+    max-width: rem(350px);
   }
 }

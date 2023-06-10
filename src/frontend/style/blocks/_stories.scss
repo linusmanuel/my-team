@@ -54,3 +54,20 @@
     }
   }
 }
+
+@include desktop-large {
+  .b-stories {
+    padding-inline: rem(165px);
+    &__title {
+      max-width: 100%;
+    }
+
+    &__body {
+      padding-inline: 0;
+    }
+
+    &__cards {
+      flex-direction: row;
+    }
+  }
+}
