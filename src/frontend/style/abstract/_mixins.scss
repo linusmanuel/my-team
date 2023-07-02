@@ -48,6 +48,11 @@
   }
 }
 
+@mixin section-width($size) {
+  max-width: rem($size);
+  margin-inline: auto;
+}
+
 /* BREAKPOINTS */
 @mixin mobile-up {
   @media screen and (min-width: $sm) {

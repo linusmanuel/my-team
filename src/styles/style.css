@@ -1210,6 +1210,25 @@ body {
     justify-self: end;
   }
 }
+@media screen and (min-width: 1400px) {
+  .c-footer {
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    padding-inline: 10.3125rem;
+  }
+  .c-footer .c-logo {
+    margin-top: 1rem;
+  }
+  .c-footer__copyright {
+    grid-column: 3/4;
+    align-self: end;
+  }
+  .c-footer__link {
+    justify-self: start;
+  }
+  .c-footer .c-social-media {
+    justify-content: end;
+  }
+}
 .c-social-media {
   display: flex;
   justify-content: center;

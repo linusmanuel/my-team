@@ -81,3 +81,27 @@
     }
   }
 }
+
+@include desktop-large {
+  .c-footer {
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    padding-inline: rem(165px);
+
+    .c-logo {
+      margin-top: rem(16px);
+    }
+
+    &__copyright {
+      grid-column: 3/4;
+      align-self: end;
+    }
+
+    &__link {
+      justify-self: start;
+    }
+
+    .c-social-media {
+      justify-content: end;
+    }
+  }
+}
