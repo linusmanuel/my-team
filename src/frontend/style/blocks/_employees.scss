@@ -51,3 +51,16 @@
     }
   }
 }
+
+@include desktop-large {
+  .b-employees {
+    padding-block: rem(140px);
+    &__title {
+      margin-bottom: rem(64px);
+    }
+
+    &__cards {
+      gap: rem(76px) rem(30px);
+    }
+  }
+}

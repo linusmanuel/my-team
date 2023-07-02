@@ -632,6 +632,17 @@ body {
     column-gap: 0.6875rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .b-employees {
+    padding-block: 8.75rem;
+  }
+  .b-employees__title {
+    margin-bottom: 4rem;
+  }
+  .b-employees__cards {
+    gap: 4.75rem 1.875rem;
+  }
+}
 .b-contact {
   background-color: var(--primary);
   padding-top: 5rem;
@@ -702,7 +713,14 @@ body {
   .b-clients__list {
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     column-gap: 3rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .b-clients {
+    padding-top: 8.75rem;
+    padding-bottom: 9.4375rem;
   }
 }
 .b-styleguide .container {
@@ -1134,6 +1152,14 @@ body {
   }
   .c-stories__card {
     max-width: 21.875rem;
+  }
+  .c-employees__card {
+    height: 15.8125rem;
+    max-width: 21.875rem;
+    width: 100%;
+  }
+  .c-employees__card-button {
+    transform: translateY(20px);
   }
 }
 .c-cta {

@@ -51,7 +51,15 @@
     &__list {
       flex-direction: row;
       align-items: center;
+      justify-content: center;
       column-gap: rem(48px );
     }
+  }
+}
+
+@include desktop-large {
+  .b-clients {
+    padding-top: rem(140px);
+    padding-bottom: rem(151px);
   }
 }

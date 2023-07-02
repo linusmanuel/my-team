@@ -138,4 +138,14 @@
   .c-stories__card {
     max-width: rem(350px);
   }
+
+  .c-employees__card {
+    height: rem(253px );
+    max-width: rem(350px);
+    width: 100%;
+
+    &-button {
+      transform: translateY(20px);
+    }
+  }
 }
