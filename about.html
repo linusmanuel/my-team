@@ -56,7 +56,10 @@
 					</picture>
 					<h4 class="c-employees__card-title c-title-4">Cruz Hamer</h4>
 					<p class="c-employees__card-text c-text-1">Founder & CEO</p>
-					<p class="c-employees__card-text-2 c-text-1">Teste</p>
+					<p class="c-employees__card-text-2 c-text-1">
+						“Empowered teams create truly amazing products. Set the north star
+						and let them follow it.”
+					</p>
 					<ul class="c-social-media">
 						<li class="c-social-media__item">
 							<img src="/src/images/icon-facebook.svg" alt="Icon facebook" />
@@ -72,7 +75,7 @@
 						<span>+</span>
 					</button>
 				</li>
-				<li class="c-employees__card">
+				<li class="c-employees__card" data-employees>
 					<picture class="c-employees__card-image">
 						<img
 							src="/src/images/avatar-christian.jpg"
@@ -81,9 +84,11 @@
 					</picture>
 					<h4 class="c-employees__card-title c-title-4">Cristian Duncan</h4>
 					<p class="c-employees__card-text c-text-1">Co-founder & COO</p>
-					<button class="c-employees__card-button c-btn--add">+</button>
+					<button class="c-employees__card-button c-btn--add" data-active>
+						+
+					</button>
 				</li>
-				<li class="c-employees__card">
+				<li class="c-employees__card" data-employees>
 					<picture class="c-employees__card-image">
 						<img src="/src/images/avatar-cruz.jpg" alt="Avatar Cruz Hamer" />
 					</picture>
@@ -91,7 +96,7 @@
 					<p class="c-employees__card-text c-text-1">Co-founder & CTO</p>
 					<button class="c-employees__card-button c-btn--add">+</button>
 				</li>
-				<li class="c-employees__card">
+				<li class="c-employees__card" data-employees>
 					<picture class="c-employees__card-image">
 						<img src="/src/images/avatar-drake.jpg" alt="Avatar Drake Heaton" />
 					</picture>
@@ -101,7 +106,7 @@
 					</p>
 					<button class="c-employees__card-button c-btn--add">+</button>
 				</li>
-				<li class="c-employees__card">
+				<li class="c-employees__card" data-employees>
 					<picture class="c-employees__card-image">
 						<img
 							src="/src/images/avatar-griffin.jpg"
@@ -213,6 +218,6 @@
 				Copyright 2023. All Rights Reserved
 			</p>
 		</footer>
-		<script src="/src/frontend/script/main.js"></script>
+		<script src="/src/frontend/script/main.js" type="module"></script>
 	</body>
 </html>
