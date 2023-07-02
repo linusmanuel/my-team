@@ -19,5 +19,5 @@ function activeCard() {
 	});
 }
 
-activeCard();
+// activeCard();
 openMenu();

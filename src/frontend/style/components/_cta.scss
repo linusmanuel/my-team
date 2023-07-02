@@ -33,3 +33,10 @@
     }
   }
 }
+
+@include desktop-large {
+  .c-cta {
+    justify-content: center;
+    gap: rem(260px);
+  }
+}

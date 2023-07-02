@@ -550,6 +550,8 @@ body {
     flex-direction: column;
     gap: 6.125rem;
     text-align: center;
+    margin-inline: auto;
+    max-width: 69.375rem;
   }
   .b-stories__title {
     max-width: 35.8125rem;
@@ -569,6 +571,8 @@ body {
   }
   .b-stories__body {
     padding-inline: 0;
+    max-width: 69.375rem;
+    margin-inline: auto;
   }
   .b-stories__cards {
     flex-direction: row;
@@ -1132,6 +1136,12 @@ body {
   }
   .c-cta a {
     margin-inline: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .c-cta {
+    justify-content: center;
+    gap: 16.25rem;
   }
 }
 .c-footer {

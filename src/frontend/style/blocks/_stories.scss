@@ -41,6 +41,8 @@
     &__head {
       @include flex-column-gap(rem(98px));
       text-align: center;
+      margin-inline: auto;
+      max-width: rem(1110px);
     }
 
     &__title {
@@ -64,6 +66,8 @@
 
     &__body {
       padding-inline: 0;
+      max-width: rem(1110px);
+      margin-inline: auto;
     }
 
     &__cards {
