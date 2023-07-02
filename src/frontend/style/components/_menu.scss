@@ -95,3 +95,9 @@
     }
   }
 }
+
+@include desktop-large {
+  .c-menu {
+    padding-inline: rem(165px);
+  }
+}

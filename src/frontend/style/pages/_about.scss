@@ -12,8 +12,38 @@
     padding-block: rem(112px);
     background-position: bottom 0 right rem(-100px);
 
-    &__body {
+    &__body {             
       padding-inline: rem(155.5px);
+    }
+  }
+}
+
+@include desktop-large {
+  .b-about {
+    &__body {             
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+    }
+
+    &__title {
+      font-size: rem(64px);
+    }
+  
+    &__text {
+      font-size: rem(18px);
+      max-width: rem(730px);
+      position: relative;
+
+      &::before {
+        background-color: var(--primary-light);
+        content: "";
+        position: absolute;
+        top: rem(-40px);
+        left: 0;
+        width: rem(50px);
+        height: rem(4px);
+      }
     }
   }
 }

@@ -745,6 +745,30 @@ body {
     padding-inline: 9.71875rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .b-about__body {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .b-about__title {
+    font-size: 4rem;
+  }
+  .b-about__text {
+    font-size: 1.125rem;
+    max-width: 45.625rem;
+    position: relative;
+  }
+  .b-about__text::before {
+    background-color: var(--primary-light);
+    content: "";
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    width: 3.125rem;
+    height: 0.25rem;
+  }
+}
 .c-btn {
   background-color: transparent;
   width: 9.5625rem;
@@ -966,6 +990,11 @@ body {
   }
   .c-menu__navigation li:last-child {
     margin-left: auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .c-menu {
+    padding-inline: 10.3125rem;
   }
 }
 /* TEAM CARD */
