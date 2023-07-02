@@ -667,6 +667,30 @@ body {
     background-position: bottom 0 right -6.25rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .b-contact {
+    display: grid;
+    column-gap: 1.875rem;
+    justify-items: center;
+    grid-template-areas: "titulo form" "subtitulo form" "card form";
+  }
+  .b-contact__title {
+    grid-area: titulo;
+    justify-self: start;
+  }
+  .b-contact__subtitle {
+    grid-area: subtitulo;
+    justify-self: start;
+  }
+  .b-contact__cards {
+    grid-area: card;
+    justify-self: start;
+  }
+  .b-contact .c-form {
+    width: 33.75rem;
+    grid-area: form;
+  }
+}
 .b-clients {
   background-color: var(--secondary-dark-2);
   padding-block: 5.5rem;
@@ -721,6 +745,7 @@ body {
   .b-clients {
     padding-top: 8.75rem;
     padding-bottom: 9.4375rem;
+    background-position: left top 0;
   }
 }
 .b-styleguide .container {

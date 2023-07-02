@@ -24,3 +24,36 @@
     background-position: bottom 0 right rem(-100px);
   }
 }
+
+@include desktop-large {
+  .b-contact {
+    display: grid;
+    column-gap: rem(30px);
+    justify-items: center;
+    grid-template-areas: 
+      "titulo form"
+      "subtitulo form"
+      "card form"
+    ;
+
+    &__title {
+      grid-area: titulo;
+      justify-self: start;
+    }
+
+    &__subtitle {
+      grid-area: subtitulo;
+      justify-self: start;
+    }
+
+    &__cards {
+      grid-area: card;
+      justify-self: start;
+    }
+
+    .c-form {
+      width: rem(540px);
+      grid-area: form;
+    }
+  }
+}
