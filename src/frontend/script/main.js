@@ -2,5 +2,5 @@
 import { openMenu } from './components/OpenMenu.js';
 import { activeCard } from './components/ActiveCard.js';
 
-activeCard();
 openMenu();
+activeCard;
