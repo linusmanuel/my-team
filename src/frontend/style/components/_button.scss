@@ -106,7 +106,7 @@
     &.active {
       background-color: var(--secondary-light);
       span {
-        display: block;
+        display: inline;
         transform: rotate(227deg);
       }
     }

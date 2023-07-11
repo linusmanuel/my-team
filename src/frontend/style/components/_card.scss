@@ -46,6 +46,9 @@
 .c-employees__card {
   background-color: var(--secondary-dark-2);
   padding: rem(32px) rem(46.5px) rem(22px) rem(46.5px);
+  min-height: rem(281px);
+  position: relative;
+
   &-image {
     @include squares(rem(96px));
     @include c-picture;
@@ -91,7 +94,10 @@
   }
 
   &-button {
-    transform: translateY(50px);
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: rem(-25px);
+    left: 50%;
   }
 }
 
@@ -140,12 +146,8 @@
   }
 
   .c-employees__card {
-    height: rem(253px );
+    min-height: rem(253px );
     max-width: rem(350px);
     width: 100%;
-
-    &-button {
-      transform: translateY(20px);
-    }
   }
 }

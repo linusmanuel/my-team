@@ -906,7 +906,7 @@ body {
   background-color: var(--secondary-light);
 }
 .c-btn--add.active span {
-  display: block;
+  display: inline;
   transform: rotate(227deg);
 }
 
@@ -1093,6 +1093,8 @@ body {
 .c-employees__card {
   background-color: var(--secondary-dark-2);
   padding: 2rem 2.90625rem 1.375rem 2.90625rem;
+  min-height: 17.5625rem;
+  position: relative;
 }
 .c-employees__card-image {
   height: 6rem;
@@ -1138,7 +1140,10 @@ body {
   display: flex;
 }
 .c-employees__card-button {
-  transform: translateY(50px);
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -1.5625rem;
+  left: 50%;
 }
 
 /* CARD CONTACT ABOUT US*/
@@ -1179,12 +1184,9 @@ body {
     max-width: 21.875rem;
   }
   .c-employees__card {
-    height: 15.8125rem;
+    min-height: 15.8125rem;
     max-width: 21.875rem;
     width: 100%;
-  }
-  .c-employees__card-button {
-    transform: translateY(20px);
   }
 }
 .c-cta {
