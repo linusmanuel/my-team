@@ -55,13 +55,10 @@
     font-size: rem(18px);
     color: var(--white);
     font-weight: $semi-bold;
-  }
 
-  &__item a {
-    text-decoration: none;
-    font-size: rem(18px);
-    color: var(--white);
-    font-weight: $semi-bold;
+    &:hover {
+      color: var(--primary-light);
+    }
   }
 }
 
