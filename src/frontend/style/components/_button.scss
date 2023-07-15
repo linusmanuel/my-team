@@ -105,9 +105,11 @@
 
     &.active {
       background-color: var(--secondary-light);
+      background-image: url('/src/images/close.svg');
+      background-repeat: no-repeat;
+      background-position: center;
       span {
-        display: inline;
-        transform: rotate(227deg);
+        display: none;
       }
     }
   }

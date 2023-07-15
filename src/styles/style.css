@@ -904,10 +904,12 @@ body {
 }
 .c-btn--add.active {
   background-color: var(--secondary-light);
+  background-image: url("/src/images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .c-btn--add.active span {
-  display: inline;
-  transform: rotate(227deg);
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
